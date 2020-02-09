@@ -1,7 +1,8 @@
+I have put together this project over weekend. 
+
 # cart_pole
 Simple Reinforcement learning agent that learns balance a pole on cart by moving left or right.
 
-I have put together a project over weekend. 
 - It implements a reinforcement learning agent.
 - learning agent learns to take action (moving cart left or right) based to it prior experiences.
 - It samples batch of previous experiences from a replay memory.
