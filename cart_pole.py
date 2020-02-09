@@ -26,10 +26,6 @@ from itertools import count
 from PIL import Image
 import time
 
-# set up display with matplotlib
-is_ipython = 'inline' in matplotlib.get_backend()
-if is_ipython: from IPython import display
-
 #====================================================
 # Utility functions
 #====================================================
