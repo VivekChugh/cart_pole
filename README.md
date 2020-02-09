@@ -9,5 +9,5 @@ I have put together a project over weekend.
 - Follows Epsilon greedy strategy to choose between exploration and exploitation at each time step
 - Updates weights and biases of target net from policy net every 10th episode
   
-NOTE:  while sampling experience batch from replay memory and creating state tensors/action tensors, I may have messed up their dimensions before of passing to policy net which causing program to break. I'll will be working on it.
+NOTE:  while sampling experience batch from replay memory and creating state tensors/action tensors, I may have messed up their dimensions before of passing to policy net which causing program to break after 256 time steps in total (when main program accesses the policy net for first time with sampled batch of state-action pairs from replay memory). I'll will be working on it.
     
