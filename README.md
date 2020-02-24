@@ -1,6 +1,6 @@
 I have put together this project over weekend. 
 
-# cart_pole
+# cart_pole (https://gym.openai.com/envs/CartPole-v0/)
 Simple Reinforcement learning agent that learns balance a pole on cart by moving left or right.
 
 - It implements a reinforcement learning agent.
